@@ -48,6 +48,9 @@ function App() {
 
     const data = await response.json();
     console.log(data.status,'...../');
+     setData('')
+    setTitle('')
+    alert('thanks for voting')
 
    }
     
