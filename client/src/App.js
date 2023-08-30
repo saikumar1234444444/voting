@@ -70,9 +70,9 @@ function App() {
     <p>please vote for Mehboob</p>
     <div  style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'flex-start',gap:5}}>
     <label>Name</label>
-    <input type='text' onChange={setInput} style={{borderRadius:'5px',border:'none',height:'25px'}}/>
+    <input type='text' value={input} onChange={setInput} style={{borderRadius:'5px',border:'none',height:'25px'}}/>
     <label>Phone number</label>
-    <input type='text' onChange={ setName} style={{borderRadius:'5px',border:'none',height:'25px'}}/>
+    <input type='text' value={name} onChange={ setName} style={{borderRadius:'5px',border:'none',height:'25px'}}/>
     <button onClick={submitData} style={{borderRadius:'5px',border:'none',height:'25px',backgroundColor:'orange'}}>Submit Vote</button>
     </div>
     </div>
